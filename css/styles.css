@@ -62,7 +62,6 @@ li {
   color: #fff;
   font-size: 8pt;
   font-weight: bold;
-  width: 250px;
   text-transform: uppercase;
 }
 
@@ -78,6 +77,10 @@ li {
   text-align: center;
   margin: 0px;
   font-size: 0px;
+}
+
+.navlinks ul li {
+  width: 150px;
 }
 
 .navlinks ul li a {
@@ -120,6 +123,14 @@ li {
   padding: 15px;
   text-align: center;
   color: #28a1c9;
+}
+
+.links li {
+  width: 250px;
+}
+
+.contact li {
+  width: 250px;
 }
 
 .image {
