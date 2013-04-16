@@ -61,6 +61,7 @@ body {
   background-color: #fff;
   margin-top: 125px;
   margin-bottom: 125px;
+  margin-left: 10px;
   width: 840px;
   text-align: center;
 }
@@ -75,7 +76,7 @@ li {
 
 .navlinks {
   background-color: #fff;
-  width: 820px;
+  width: 780px;
   margin-left: auto;
   margin-right: auto;
 }
