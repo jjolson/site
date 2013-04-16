@@ -57,6 +57,14 @@ body {
   font-family: Arial, Verdana, sans-serif;
 }
 
+.top {
+  background-color: #fff;
+  margin-top: 125px;
+  margin-bottom: 125px;
+  width: 840px;
+  text-align: center;
+}
+
 li {
   display: inline-block;
   color: #fff;
@@ -188,11 +196,8 @@ a:hover {
 h1 {
  color: #28a1c9;
  font-size: 16pt;
- text-align: center;
- padding: 125px;
  text-transform: uppercase;
  letter-spacing:1em;
- width: 650px;
 }
 
 h2 {
