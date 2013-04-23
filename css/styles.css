@@ -52,40 +52,39 @@ table {
 */
 
 body {
-  width: 840px;
-  margin: 0 auto;
+  background-color: #ccc;
   font-family: Arial, Verdana, sans-serif;
+  margin: 0 auto;
+  width: 840px;
 }
 
 .top {
-  background-color: #fff;
-  margin-top: 125px;
-  margin-bottom: 125px;
-  margin-left: 10px;
-  width: 840px;
+  background-color: #ccc;
+  margin: 125px 0 125px 10px;
   text-align: center;
+  width: 820px;
 }
 
 li {
-  display: inline-block;
   color: #fff;
+  display: inline-block;
   font-size: 8pt;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .navlinks {
-  background-color: #fff;
-  width: 780px;
+  background-color: #ccc;
   margin-left: auto;
   margin-right: auto;
+  width: 820px;
 }
 
 .navlinks ul {
   display: inline-block;
-  text-align: center;
-  margin: 0px;
   font-size: 0px;
+  margin: 0px;
+  text-align: center;
 }
 
 .navlinks ul li {
@@ -93,45 +92,43 @@ li {
 }
 
 .navlinks ul li a {
-    text-decoration: none;
-    font-size: 14pt;
-    letter-spacing:-.15em;
+  font-size: 14pt;
+  letter-spacing:-.15em;
+  text-decoration: none;
 }
 
 .navlinks ul li a:visited {
-    text-decoration: none;
-    font-size: 14pt;
-    letter-spacing:-.15em;
+  text-decoration: none;
 }
 
 .navlinks ul li a:hover {
-    text-decoration: none;
-    font-size: 14pt;
-    color: #222;
-    letter-spacing:0em;
+  color: #222;
+  letter-spacing:0em;
 }
 
 .column {
   background-color: #f2f2f2;
-  width: 360px;
   float: left;
-  margin: 10px;
+  margin:10px;
   padding: 20px;
+  width: 360px;
 }
 
 .column2 {
   background-color: #f2f2f2;
-  width: 780px;
   float: left;
   margin: 10px;
   padding: 20px;
+  width: 780px;
 }
 
 .links {
-  background-color: #fff;
+  background-color: #ccc;
+  color: #28a1c9;
+  margin: 10px;
   padding: 15px;
   text-align: center;
-  color: #28a1c9;
+  width: 790px;
 }
 
 .links li {
@@ -144,8 +141,6 @@ li {
 
 .image {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 a:link {
@@ -160,22 +155,22 @@ a:visited {
 
 a:hover {
   color: #4d4d4d;
-  text-decoration: none;
   letter-spacing: .1em;
+  text-decoration: none;
 }
 
 .contact {
-  padding: 10px;
-  margin: 10px;
   background-color: #a9a9a9;
+  margin: 10px;
+  padding: 10px;
 }
 
 .contact ul {
   list-style-type: none;
-  text-align: center;
   margin: 0px;
-  padding: 0px;
   overflow: hidden;
+  padding: 0px;
+  text-align: center;
 }
 
 .contact ul li a {
@@ -190,30 +185,30 @@ a:hover {
 
 .contact ul li a:hover {
   color: #28a1c9;
-  text-decoration: none;
   letter-spacing: .1em;
+  text-decoration: none;
 }
 
 h1 {
  color: #28a1c9;
  font-size: 16pt;
- text-transform: uppercase;
  letter-spacing:1em;
+ text-transform: uppercase;
 }
 
 h2 {
   color: #28a1c9;
-  font-weight: bold;
   font-size: 8pt;
-  text-transform: uppercase;
+  font-weight: bold;
   letter-spacing:.4em;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
+  text-transform: uppercase;
 }
 
 h3 {
   color: #4d4d4d;
-  font-weight: bolder;
   font-size: 8pt;
+  font-weight: bolder;
   letter-spacing:-.1em;
   margin-bottom: 3px;
 }
@@ -227,3 +222,18 @@ p {
 hr {
   width: 97.5%
 }
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix: after {
+  clear:both;
+}
+
