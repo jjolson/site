@@ -88,7 +88,7 @@ li {
 }
 
 .navlinks ul li {
-  width: 150px;
+  width: 160px;
 }
 
 .navlinks ul li a {
@@ -102,7 +102,7 @@ li {
 }
 
 .navlinks ul li a:hover {
-  color: #222;
+  color: #28a1c9;
   letter-spacing:0em;
 }
 
@@ -144,17 +144,17 @@ li {
 }
 
 a:link {
-  color: #28a1c9;
+  color: #4d4d4d;
   text-decoration: none;
 }
 
 a:visited {
-  color: #28a1c9;
+  color: #4d4d4d;
   text-decoration: none;
 }
 
 a:hover {
-  color: #4d4d4d;
+  color: #28a1c9;
   letter-spacing: .1em;
   text-decoration: none;
 }
@@ -190,38 +190,121 @@ a:hover {
 }
 
 h1 {
- color: #28a1c9;
- font-size: 16pt;
+ color: #c2c2c2;
+ font-size: 40pt;
  letter-spacing:1em;
  text-transform: uppercase;
+ font-family: 'Fjalla One', sans-serif;
 }
 
 h2 {
-  color: #28a1c9;
+  color: #4d4d4d;
   font-size: 8pt;
   font-weight: bold;
-  letter-spacing:.4em;
-  margin-bottom: 3px;
+  letter-spacing:.3em;
+  margin-bottom: 5px;
   text-transform: uppercase;
+  font-family: 'Playfair Display SC', serif; 
 }
 
 h3 {
   color: #4d4d4d;
-  font-size: 8pt;
+  font-size: 9pt;
   font-weight: bolder;
   letter-spacing:-.1em;
-  margin-bottom: 3px;
+  line-height: 14pt;
 }
 
 p {
   color: #4d4d4d;
   font-size: 9pt;
-  line-height: 13px;
+  line-height: 18px;
 }
 
 hr {
   width: 97.5%
 }
+
+/* START EXPERIMENTS */
+
+.column3 {
+  background-color: #898989;
+  color: #FFF;
+  font-family: 'Titillium Web', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 550px;
+}
+
+.column3 a {
+  color: #FFFF00;
+  font-size: 14pt;
+  text-decoration: none;
+}
+
+.column3 a:visited {
+  text-decoration: none;
+}
+
+.column3 a:hover {
+  color: #FFF;
+  font-size: 14pt;
+  text-decoration: none;
+}
+
+.topexp {  
+  color: #FFF;
+  font-size: 14pt;
+  padding-bottom: 15px;
+}
+
+.lightexp {
+  font-weight: lighter;
+}
+
+.boldexp {
+  font-weight: bolder;
+}
+
+.largeexp {
+  color: #FFF;
+  font-size: 48pt;
+  letter-spacing: .2em;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-indent: 65px;
+}
+
+.bottomexp {
+  color: #FFF;
+  font-size: 12pt;
+  font-weight: lighter;
+  margin-top: 25px;
+}
+
+.numberexp {
+  color: #FFF;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.session {
+  background-color: #37ceb3;
+  border-radius: 30px;
+  color: #FFF;
+  font-size: 18pt;
+  margin-top: 60px;
+  margin-left: 100px;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  width: 300px;
+}
+
+/* END EXPERIMENTS */
 
 .clearfix {
   *zoom: 1;
