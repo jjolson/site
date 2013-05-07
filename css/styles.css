@@ -53,16 +53,32 @@ table {
 
 body {
   background-color: #ccc;
+  background: url('../images/noisy_net.png');
+  background-repeat: repeat;
   font-family: Arial, Verdana, sans-serif;
+  margin: 0 auto;
+}
+
+.bodywrap {
   margin: 0 auto;
   width: 840px;
 }
 
+.icons {
+  float: right;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
 .top {
-  background-color: #ccc;
-  margin: 125px 0 125px 10px;
-  text-align: center;
-  width: 820px;
+  background: -webkit-linear-gradient(to right, #C1C1C1, #FFF);
+  background:    -moz-linear-gradient(to right, #C1C1C1, #FFF);
+  background:     -ms-linear-gradient(to right, #C1C1C1, #FFF);
+  background:      -o-linear-gradient(to right, #C1C1C1, #FFF);
+  background:         linear-gradient(to right, #C1C1C1, #FFF);
+  background-color: #fff;
+  margin: 0 0 60px 0;
+  padding: 35px;
 }
 
 li {
@@ -73,36 +89,17 @@ li {
   text-transform: uppercase;
 }
 
-.navlinks {
-  background-color: #ccc;
-  margin-left: auto;
-  margin-right: auto;
-  width: 820px;
-}
-
-.navlinks ul {
-  display: inline-block;
-  font-size: 0px;
-  margin: 0px;
-  text-align: center;
-}
-
-.navlinks ul li {
-  width: 160px;
-}
-
-.navlinks ul li a {
-  font-size: 14pt;
-  letter-spacing:-.15em;
+.navlinks li a:link {
+  font-size: 12pt;
   text-decoration: none;
 }
 
-.navlinks ul li a:visited {
+.navlinks li a:visited {
   text-decoration: none;
 }
 
-.navlinks ul li a:hover {
-  color: #28a1c9;
+.navlinks li a:hover {
+  color: #000047;
   letter-spacing:0em;
 }
 
@@ -123,20 +120,12 @@ li {
 }
 
 .links {
-  background-color: #ccc;
+/*  background-color: #ccc;*/
   color: #28a1c9;
   margin: 10px;
   padding: 15px;
   text-align: center;
   width: 790px;
-}
-
-.links li {
-  width: 250px;
-}
-
-.contact li {
-  width: 250px;
 }
 
 .image {
@@ -154,13 +143,12 @@ a:visited {
 }
 
 a:hover {
-  color: #28a1c9;
-  letter-spacing: .1em;
+  color: #fff;
   text-decoration: none;
 }
 
 .contact {
-  background-color: #a9a9a9;
+/*  background-color: #a9a9a9;*/
   margin: 10px;
   padding: 10px;
 }
@@ -173,7 +161,7 @@ a:hover {
   text-align: center;
 }
 
-.contact ul li a {
+/*.contact ul li a {
   color: #fff;
   text-decoration: none;
 }
@@ -187,14 +175,15 @@ a:hover {
   color: #28a1c9;
   letter-spacing: .1em;
   text-decoration: none;
-}
+}*/
 
 h1 {
- color: #c2c2c2;
- font-size: 40pt;
- letter-spacing:1em;
+ color: #393939;
+  font-family: 'Fjalla One', sans-serif;
+ font-size: 28pt;
+ letter-spacing:.25em;
+ margin-bottom: 10px;
  text-transform: uppercase;
- font-family: 'Fjalla One', sans-serif;
 }
 
 h2 {
@@ -223,6 +212,18 @@ p {
 
 hr {
   width: 97.5%
+}
+
+.foots {
+  background-color:#ccc;
+  color: #666;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 6pt;
+  position: fixed;
+  text-transform: uppercase;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
 }
 
 /* START EXPERIMENTS */
@@ -274,8 +275,8 @@ hr {
   font-size: 48pt;
   letter-spacing: .2em;
   padding-top: 30px;
-  padding-bottom: 20px;
-  text-indent: 65px;
+  padding-bottom: 30px;
+  text-indent: 35px;
 }
 
 .bottomexp {
@@ -302,6 +303,58 @@ hr {
   text-align: center;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
   width: 300px;
+}
+
+.alertwrap {
+  background: #fff9ad;
+  margin: 0 auto;
+  padding: 25px;
+  width: 700px;
+}
+
+.alertLeft {
+  background: #2b82bd;
+  background-image: url('../images/lightbulb.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+  -moz-box-shadow:    inset 0 0 1px #000000;
+  -webkit-box-shadow: inset 0 0 1px #000000;
+  box-shadow:         inset 0 0 1px #000000;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 80px;
+}
+
+.alertRight  {
+  background: -webkit-linear-gradient(to right, #3aaffe, #2a9ce8);
+  background:    -moz-linear-gradient(to right, #3aaffe, #2a9ce8);
+  background:     -ms-linear-gradient(to right, #3aaffe, #2a9ce8);
+  background:      -o-linear-gradient(to right, #3aaffe, #2a9ce8);
+  background:         linear-gradient(to right, #3aaffe, #2a9ce8);
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+  -moz-box-shadow:    inset 0 0 1px #000000;
+  -webkit-box-shadow: inset 0 0 1px #000000;
+  box-shadow:         inset 0 0 1px #000000;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 540px;
+}
+
+.alerttext {
+  color: #fff;
+  font-size: 12pt;
+  line-height: 15pt;
+  text-indent: 25px;
+  text-shadow: 1px 1px #404041;
+}
+
+strong {
+  font-weight: bold;
 }
 
 /* END EXPERIMENTS */
