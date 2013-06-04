@@ -34,8 +34,106 @@
 
     <div class="bodywrap">
       <hr />
-          <div class="calendarwrap">
 
+      <table class="airplane">
+        <tr>
+          <th>Flight</th>
+          <th>Departure</th>
+          <th>Arrival</th>
+        <tr>
+
+        <tr>
+          <td class="american">
+            <span class="airnum">1341</span><br />
+            <span class="airspec">American Airlines</span><br />
+            <span class="ontime">&#8727; On Time</span>
+          </td>
+          <td>
+            <span class="airnum">7:05 <span class="airnumtime">AM</span></span><br />
+            <span class="city">Chicago, IL</span><br />
+            <span class="airspec">Chicago O'Hare International Airport (ORD)</span>
+          </td>
+          <td>
+            <span class="airnum">9:55 <span class="airnumtime">AM</span></span><br />
+            <span class="city">San Francisco, CA</span><br />
+            <span class="airspec">San Francisco International Airport (SFO)</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="delta">
+            <span class="airnum">4487</span><br />
+            <span class="airspec">Delta</span><br />
+            <span class="ontime">&#8727; On Time</span>
+          </td>
+          <td>
+            <span class="airnum">12:40 <span class="airnumtime">AM</span></span><br />
+            <span class="city">Chicago, IL</span><br />
+            <span class="airspec">Chicago O'Hare International Airport (ORD)</span>
+          </td>
+          <td>
+            <span class="airnum">3:09 <span class="airnumtime">PM</span></span><br />
+            <span class="city">Salt Lake City, UT</span><br />
+            <span class="airspec">Salt Lake City International Airport (SLC)</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="american">
+            <span class="airnum">1051</span><br />
+            <span class="airspec">American Airlines</span><br />
+            <span class="delayed">&#8727; Delayed</span>
+          </td>
+          <td>
+            <span class="airnum">12:55 <span class="airnumtime">PM</span></span><br />
+            <span class="city">Chicago, IL</span><br />
+            <span class="airspec">Chicago O'Hare International Airport (ORD)</span>
+          </td>
+          <td>
+            <span class="airnum">3:50 <span class="airnumtime">PM</span></span><br />
+            <span class="city">San Francisco, CA</span><br />
+            <span class="airspec">San Francisco International Airport (SFO)</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="delta">
+            <span class="airnum">1977</span><br />
+            <span class="airspec">Delta</span><br />
+            <span class="cancelled">&#8727; Cancelled</span>
+          </td>
+          <td>
+            <span class="airnum">6:00 <span class="airnumtime">PM</span></span><br />
+            <span class="city">Chicago, IL</span><br />
+            <span class="airspec">Chicago O'Hare International Airport (ORD)</span>
+          </td>
+          <td>
+            <span class="airnum">9:05 <span class="airnumtime">PM</span></span><br />
+            <span class="city">Atlanta, GA</span><br />
+            <span class="airspec">Hartsfield-Jackson Atlanta International Airport (ATL)</span>
+          </td>
+        </tr>
+
+      </table>
+
+      <hr />
+      <form action="#" method="get">
+        CONTACT ME
+        <p>Name: <input type="text" name="Name" size="15" /></p>
+        <p>Email: <input type="text" name="Email" size="15" /></p>
+        <p>Services Interested:
+          <br />
+          <input type="checkbox" name="Services" value="GDesign" /> Graphic Design
+           <input type="checkbox" name="Services" value="UX" /> UX
+            <input type="checkbox" name="Services" value="WDesign" /> Web Design
+        </p>
+        <p>Comment:
+        <textarea name="Comment" cols="39" rows="3"></textarea></p>
+        <input type="submit" name="Submit" value="Submit" id="submit"/>
+      </form>
+      
+      <hr />
+          <div class="calendarwrap">
           <div class="calendartitle clearfix">
             <div class="calendartitleleft">
             </div>
@@ -45,7 +143,6 @@
             <div class="calendartitleright">
             </div>
           </div>
-
           <div class="calendardays clearfix">
             <ol>
               <li>S</li>
@@ -57,7 +154,6 @@
               <li>S</li>
             </ol>
           </div>
-
           <div class="row clearfix">
             <ol>
               <li>28</li>
@@ -69,7 +165,6 @@
               <li>3</li>
             </ol>
           </div>
-
           <div class="row clearfix">
             <ol>
               <li>4</li>
@@ -81,7 +176,6 @@
               <li>10</li>
             </ol>
           </div>
-
           <div class="row clearfix">
             <ol>
               <li>11</li>
@@ -93,7 +187,6 @@
               <li>17</li>
             </ol>
           </div>
-
           <div class="row clearfix">
             <ol>
               <li>18</li>
@@ -105,7 +198,6 @@
               <li>24</li>
             </ol>
           </div>
-
           <div class="row clearfix">
             <ol>
               <li>25</li>
@@ -117,6 +209,7 @@
               <li>31</li>
             </ol>
           </div>
+
         </div>
 
       <hr />
